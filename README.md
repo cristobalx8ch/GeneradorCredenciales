@@ -1,7 +1,7 @@
 # generador de Credenciales de Evento
 
 ## Estudiantes:
-Hilary Varela – Patrones de Diseño Sección 1
+Hilary Varela – 
 Cristobal Martinez - Patrones de Diseño Sección 1
 
 ## Objetivo del Proyecto
@@ -83,9 +83,6 @@ Elije una opcion:
 
 Este es el diagrama de clases del sistema que representa las relaciones entre los componentes principales y el uso de los patrones de diseño Singleton y Prototype.
 ![Diagrama de clases del sistema](/img/image.png)
-
-
-
 
 Diagrama de Clases (UML)
 El siguiente diagrama representa la estructura de clases del sistema, destacando los patrones de diseño utilizados: Prototype y Singleton.
