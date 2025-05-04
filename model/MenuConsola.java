@@ -63,7 +63,7 @@ public class MenuConsola {
         }
         System.out.println("Selecciona una credencial para clonar");
         for (int i = 0; i < lista.size(); i++) {
-            System.out.println((i + 1) + ". " + lista.get(i));
+            System.out.print((i + 1) + ". \n" + lista.get(i));
         }
         int option = scanner.nextInt();
         scanner.nextLine();
