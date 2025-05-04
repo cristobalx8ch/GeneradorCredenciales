@@ -78,7 +78,7 @@ Este sistema funciona completamente desde la consola y permite al usuario gestio
 3. Clonar una credencial existente
 4. Salir
 Elije una opcion:
-
+```
 ##  Diagrama de Clases (UML)
 
 Este es el diagrama de clases del sistema que representa las relaciones entre los componentes principales y el uso de los patrones de diseño Singleton y Prototype.
@@ -116,4 +116,4 @@ Métodos para agregar y mostrar credenciales.
 Clase auxiliar que gestiona el menú por consola.
 
 Interactúa con GeneradorCredenciales para manipular credenciales desde la línea de comandos.
-```
+
