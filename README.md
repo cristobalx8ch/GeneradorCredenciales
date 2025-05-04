@@ -16,10 +16,11 @@ git clone https://github.com/cristobalx8ch/GeneradorCredencialesEvento.git
 cd GeneradorCredencialesEvento
 javac Main.java
 java Main
+```
 
 
 
-## Patrón Prototype – Aplicación
+### Patrón Prototype – Aplicación
 
 Este patrón permite **clonar una credencial ya existente** sin necesidad de crear una desde cero. La clase Credencial implementa Cloneable y define un método clonar() que crea una copia exacta del objeto.
 
@@ -32,6 +33,7 @@ Credencial seleccionado = lista.get(option - 1);
 // aquí se aplica el patrón Prototype
 Credencial clon = seleccionado.clonar();
 generador.agregarCredenciales(clon);
+```
 
 
 ##  Patrón Singleton – Aplicación
@@ -62,6 +64,7 @@ public static GeneradorCredenciales obtenerInstancia() {
     }
     return instancia;
 }
+```
 
 
 ##  Menú por Consola
@@ -113,3 +116,4 @@ Métodos para agregar y mostrar credenciales.
 Clase auxiliar que gestiona el menú por consola.
 
 Interactúa con GeneradorCredenciales para manipular credenciales desde la línea de comandos.
+```
