@@ -1,8 +1,7 @@
 # generador de Credenciales de Evento
 
 ## Estudiantes:
-Hilary Varela – 
-Cristobal Martinez - Patrones de Diseño Sección 1
+Hilary Varela – Cristobal Martinez - Patrones de Diseño Sección 1
 
 ## Objetivo del Proyecto
 Este sistema permite emitir credenciales personalizadas para un evento, a partir de una plantilla clonable. Se aplican los patrones de diseño **Prototype** (para clonar credenciales) y **Singleton** (para configuración global del evento).
@@ -12,8 +11,8 @@ Este sistema permite emitir credenciales personalizadas para un evento, a partir
 Clona el repositorio con:
 
 ```bash
-git clone https://github.com/cristobalx8ch/GeneradorCredencialesEvento.git
-cd GeneradorCredencialesEvento
+git clone https://github.com/cristobalx8ch/GeneradorCredenciales.git
+cd GeneradorCredenciales
 javac Main.java
 java Main
 ```
@@ -82,7 +81,7 @@ Elije una opcion:
 ##  Diagrama de Clases (UML)
 
 Este es el diagrama de clases del sistema que representa las relaciones entre los componentes principales y el uso de los patrones de diseño Singleton y Prototype.
-![Diagrama de clases del sistema](/img/image.png)
+![Diagrama de clases del sistema](/img/UML.png)
 
 Diagrama de Clases (UML)
 El siguiente diagrama representa la estructura de clases del sistema, destacando los patrones de diseño utilizados: Prototype y Singleton.
@@ -117,3 +116,10 @@ Componentes del Diagrama
 
         Interactúa con GeneradorCredenciales para manipular credenciales desde la línea de comandos.
 
+## Capturas del sistema funcionando
+
+![Menu Opcion 1](img/MenuOptionOne.png)
+![Menu Opcion 2](img/MenuOptionTwo.png)
+![Menu Opcion 3](img/MenuOptionThree.png)
+![Verificacion de la clonación](img/VerificarClonar.png)
+![Menu Opcion 4](img/MenuOptionFour.png)
