@@ -1,4 +1,4 @@
-# generador de Credenciales de Evento
+# generador de Credenciales
 
 ## Estudiantes:
 Hilary Varela – Cristobal Martinez - Patrones de Diseño Sección 1
