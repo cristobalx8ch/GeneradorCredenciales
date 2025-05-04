@@ -84,36 +84,39 @@ Elije una opcion:
 Este es el diagrama de clases del sistema que representa las relaciones entre los componentes principales y el uso de los patrones de diseño Singleton y Prototype.
 ![Diagrama de clases del sistema](/img/image.png)
 
- Diagrama de Clases (UML)
+
+
+
+Diagrama de Clases (UML)
 El siguiente diagrama representa la estructura de clases del sistema, destacando los patrones de diseño utilizados: Prototype y Singleton.
 
 
 Componentes del Diagrama
 1. Prototype
-Define el método clonar().
+        Define el método clonar().
 
-Representa el patrón Prototype, que permite duplicar objetos existentes.
+        Representa el patrón Prototype, que permite duplicar objetos existentes.
 
 2. Credencial
-Clase concreta que implementa Prototype.
+        Clase concreta que implementa Prototype.
 
-Atributos: nombre, cargo, rut.
+        Atributos: nombre, cargo, rut.
 
-Implementa clonar() para realizar una copia profunda del objeto.
+        Implementa clonar() para realizar una copia profunda del objeto.
 
 3. GeneradorCredenciales
-Implementa el patrón Singleton:
+        Implementa el patrón Singleton:
 
-Tiene una instancia privada instancia.
+        Tiene una instancia privada instancia.
 
-Se accede con el método obtenerInstancia().
+        Se accede con el método obtenerInstancia().
 
-Almacena una lista de Credencial.
+        Almacena una lista de Credencial.
 
-Métodos para agregar y mostrar credenciales.
+        Métodos para agregar y mostrar credenciales.
 
 4. MenuConsola
-Clase auxiliar que gestiona el menú por consola.
+        Clase auxiliar que gestiona el menú por consola.
 
-Interactúa con GeneradorCredenciales para manipular credenciales desde la línea de comandos.
+        Interactúa con GeneradorCredenciales para manipular credenciales desde la línea de comandos.
 
